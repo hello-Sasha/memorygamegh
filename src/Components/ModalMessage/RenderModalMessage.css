@@ -1,0 +1,52 @@
+.modal {
+  background: #ff5533;
+  width: 685px;
+  height: 371px;
+  position: absolute;
+  grid-area: 2 / 3/3/5;
+  margin-top: 5em;
+  border-radius: 12px;
+}
+
+.finalMessage {
+  color: #ffffff;
+  margin-top: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
+  white-space: break-spaces;
+  line-height: 50px;
+}
+
+.button {
+  background: #0083fc;
+  border-radius: 12px;
+  width: 343px;
+  height: 62px;
+  margin-top: 3em;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px){
+  .modal {
+    background: #ff5533;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    grid-column: 1;
+    margin-top: 5em;
+    border-radius: 12px;
+  }
+  .button {
+    background: #0083fc;
+    border-radius: 12px;
+    width: 200px;
+    height: 50px;
+    margin-top: 0.5em;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+
+
+}
