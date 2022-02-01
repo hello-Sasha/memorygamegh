@@ -33,14 +33,7 @@ body {
   grid-row: 2;
 }
 
-.gameStatus {
-  color: var(--color-primary);
-  font-size: 24px;
-  align-self: start;
-}
-.statusAmount {
-  color: var(--color-secondary);
-}
+
 .displayCards {
   display: grid;
   grid-column: 3/5;
@@ -62,7 +55,7 @@ body {
   .mainContainer {
     display: grid;
     grid-template-columns:1;
-    grid-template-rows: 15% 15% 55% 15%;
+    grid-template-rows: 15% 10% 65% 10%;
     
     grid-gap: 2px;
     position: relative;
@@ -96,8 +89,9 @@ body {
     grid-row: 1;
     align-self: center;
     font-style: bold;
-    font-size: 50px;
+    font-size: 40px;
     color: var(--color-primary);
+    margin-bottom: 0;
   }
 }
 .closedCard {
