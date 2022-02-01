@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/memorygamegh/static/css/main.78d862ee.css",
+    "main.css": "/memorygamegh/static/css/main.ba940dc7.css",
     "main.js": "/memorygamegh/static/js/main.2414ca56.js",
     "index.html": "/memorygamegh/index.html",
-    "main.78d862ee.css.map": "/memorygamegh/static/css/main.78d862ee.css.map",
+    "main.ba940dc7.css.map": "/memorygamegh/static/css/main.ba940dc7.css.map",
     "main.2414ca56.js.map": "/memorygamegh/static/js/main.2414ca56.js.map"
   },
   "entrypoints": [
-    "static/css/main.78d862ee.css",
+    "static/css/main.ba940dc7.css",
     "static/js/main.2414ca56.js"
   ]
 }
