@@ -11,7 +11,7 @@
     display: block;
   }
 
-  @media only screen and (max-width: 768px){
+  @media all and (max-width: 1024px) {
     .statusAmount {
         color: var(--color-secondary);
         margin-left: 10px;

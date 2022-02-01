@@ -11,7 +11,6 @@ body {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 35% 65%;
-  
   grid-gap: 2px;
   position: relative;
   justify-items: center;
@@ -50,13 +49,14 @@ body {
   margin-left: 10px;
   margin-top: 10px;
 }
-@media only screen and (max-width: 768px){
+@media all and (max-width: 1024px) 
+  
+{
 
   .mainContainer {
     display: grid;
-    grid-template-columns:1;
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 15% 10% 65% 10%;
-    
     grid-gap: 2px;
     position: relative;
     justify-items: center;
