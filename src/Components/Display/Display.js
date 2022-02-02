@@ -208,7 +208,7 @@ export const Display = () => {
    }
   return (
     <div className="mainContainer">
-      <div className="header">MEMORY</div>
+      <div className="header">MEMORY GAME</div>
 
       <div>{cards.slice(0,1).img}</div>
       <div className="sideInfo1">

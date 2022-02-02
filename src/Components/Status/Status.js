@@ -5,7 +5,7 @@ export const Status = ({ text, amount }) => {
     <div className="gameStatus">
       <p className="statusBlock">
         <span>{text}</span> 
-      <span className="statusAmount">{amount}</span>
+        <span className="statusAmount">{amount}</span>
       </p>
     </div>
   );
